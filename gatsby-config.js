@@ -3,5 +3,7 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "Icebreakers",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-styled-components`
+  ],
 };
