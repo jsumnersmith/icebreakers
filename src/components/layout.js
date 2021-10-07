@@ -1,5 +1,6 @@
 import React from 'react';
 import Styled from 'styled-components';
+import { StaticImage } from 'gatsby-plugin-image';
 import '../utils/reset.css';
 
 const Wrapper = Styled.div`
@@ -20,6 +21,13 @@ const Inner = Styled.div`
   justify-content: center;
 `
 
+const Header = Styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+`
+
 const Footer = Styled.div`
   background: #DECDED;
   font-size: 14px;
@@ -31,6 +39,7 @@ const Footer = Styled.div`
 const Layout = ({children}) => (
   <>
     <Wrapper>
+      <Header><StaticImage width={50} placeholder="none" src="../images/ice.png"/></Header>
       <Inner>{children}</Inner>
       <Footer>Made with 💜 at <span style={{fontWeight: 'bold', marginLeft: 5}}>Gatsby</span>.</Footer>      
     </Wrapper>

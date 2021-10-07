@@ -4,6 +4,8 @@ module.exports = {
     title: "Icebreakers",
   },
   plugins: [
-    `gatsby-plugin-styled-components`
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`, 
   ],
 };

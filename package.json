@@ -18,7 +18,10 @@
     "@supabase/supabase-js": "^1.24.0",
     "csvtojson": "^2.0.10",
     "gatsby": "^4.0.0-zz-next.1",
+    "gatsby-plugin-image": "^1.14.1",
+    "gatsby-plugin-sharp": "^3.14.1",
     "gatsby-plugin-styled-components": "^4.14.0",
+    "gatsby-source-filesystem": "^3.14.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "styled-components": "^5.3.1"
