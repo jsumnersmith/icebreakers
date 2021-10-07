@@ -39,7 +39,7 @@ const Footer = Styled.div`
 const Layout = ({children}) => (
   <>
     <Wrapper>
-      <Header><a href="/"><StaticImage width={50} placeholder="none" src="../images/ice.png"/></a></Header>
+      <Header><a href="/"><StaticImage width={50} placeholder="none" src="../images/ice.png" alt="Melting ice cubes"/></a></Header>
       <Inner>{children}</Inner>
       <Footer>Made with 💜 at <span style={{fontWeight: 'bold', marginLeft: 5}}>Gatsby</span>.</Footer>      
     </Wrapper>
