@@ -1,5 +1,4 @@
 import * as React from "react"
-import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Styled from 'styled-components';
 
@@ -18,7 +17,7 @@ const Button = Styled.a`
   }
 `;
 
-export default () => {
+const Index = () => {
   
   return (
     <Layout>
@@ -26,4 +25,6 @@ export default () => {
     </Layout>
   )
 }
+
+export default Index;
 
