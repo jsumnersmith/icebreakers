@@ -27,6 +27,8 @@ export async function getServerData() {
   .select(`*`)
   .not(`used`, `eq`, `true`);
 
+  console.log("I'm inside the matrix.")
+
   let question = questions[Math.floor(Math.random()*questions.length)];
 
   if (error) { console.error(error)}
